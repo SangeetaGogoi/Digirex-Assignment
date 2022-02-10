@@ -1,0 +1,43 @@
+.signup-page {
+  padding: 20px;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1526280524276-51b1c8a46321?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+}
+
+.for-inputs {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.name,
+.email,
+.username,
+.password {
+  width: 350px;
+  padding: 10px;
+  border-color: thistle;
+  border: 2px solid thistle;
+  border-radius: 20px;
+  color: grey;
+}
+
+.signup-button {
+  background-color: blueviolet;
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid blueviolet;
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: rgb(230, 137, 230);
+  border: 2px solid rgb(230, 137, 230);
+}
