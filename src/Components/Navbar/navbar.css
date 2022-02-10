@@ -1,0 +1,42 @@
+.nav {
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftbar,
+.dashboard,
+.signup,
+.login,
+.logout {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard {
+  margin-right: 20px;
+}
+
+.signup {
+  margin-right: 20px;
+}
+
+.leftbar {
+  width: 10%;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+.rightbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+}
